@@ -21,7 +21,7 @@ Ratings Data File Structure (ratings.csv)
 ---------------------------------------------------------------------------------
 All ratings are contained in the file `ratings.csv`. Each line of this file after the header row represents one rating of one movie by one user, and has the following format:
 
-    userId,movieId,rating,timestamp
+userId,movieId,rating,timestamp
     
 The lines within this file are ordered first by userId, then, within user, by movieId.
 Ratings are made on a 5-star scale, with half-star increments (0.5 stars - 5.0 stars).
@@ -31,7 +31,7 @@ Movies Data File Structure (movies.csv)
 ---------------------------------------
 
 Movie information is contained in the file `movies.csv`. Each line of this file after the header row represents one movie, and has the following format:
-   
-   movieId,title,genres
+
+movieId,title,genres
 -------------------------------------------------------------------------------------
 
